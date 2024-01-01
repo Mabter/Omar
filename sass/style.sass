@@ -1,0 +1,304 @@
+@import normalizez.scss
+@import resets.scss
+
+$color1 : #786CFF
+$color2 : #1C1A1A
+
+@font-face 
+    font-family: "Black"
+    src: url(../font/NotoSans-Black.ttf)
+    font-weight: regular
+@font-face 
+    font-family: "Medium"
+    src: url(../font/NotoSans-Medium.ttf)
+@font-face 
+    font-family: "Regular"
+    src: url(../font/NotoSans-Regular.ttf)
+
+a
+    color: white
+    text-decoration: none
+    &:hover
+        color: $color1
+html
+    font-family: "Medium"
+    background: #100F0F
+    color: white
+    padding-top: 40px
+.ul
+    display: flex
+    flex-direction: row
+
+.cont
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
+    overflow: hidden
+    
+.wrapper
+    display: flex
+    flex-direction: row
+
+.logo
+    margin-right: 480px
+
+.header
+    margin-bottom: 143px
+    font-size: 20px
+    &__li
+        margin-right: 30px
+        &:last-child
+            margin-right: 0
+
+.main1
+    margin-bottom: 100px
+    &__left-side
+        max-width: 450px
+        margin-right: 368px
+    &__span
+        color: $color1
+    &__h2
+        font-family: "Black"
+        line-height: 85px
+        font-size: 64px
+        margin-bottom: 30px
+    &__p
+        margin-bottom: 30px
+    &__right-side
+        max-width: 
+.button:hover 
+    background-color: #6178c6
+.button-text 
+    position: absolute
+    border: none
+    background-color: #786CFF
+    color: #fff
+    font-size: 16px
+    font-weight: bold
+    cursor: pointer
+    transition: all 0.3s ease
+    height: 32px
+    width: 132px
+    border-radius: 0 10px 10px 0
+    background: #786CFF
+    border: 0
+    outline: none
+.button-text:hover 
+    background-color: #6178c6
+.input
+    border: 0
+    border-radius: 10px 0 0 10px
+    height: 30px
+    width: 265px
+    background: white
+    outline: none
+    padding-left: 10px
+::placeholder
+    padding-left: 20px
+    color: #000
+    font-family: "Black"
+.element
+    width: 322px
+    height: 428px
+    background: $color1
+    border-radius: 100px 100px 0 0
+.Omar
+    position: absolute
+    top: 12px
+    right: 60px
+.main2
+    font-family: "Black"
+    h2
+        font-size: 30px
+        margin-bottom: 40px
+.span
+    color: $color1
+
+.wrapper1
+    display: flex
+    justify-content: center
+    margin-bottom: 100px
+    &__item
+        margin-right: 73px
+        &:last-child
+            margin-right: 0
+
+.main3
+    margin-bottom: 100px
+    &__p
+        color: $color1
+        font-size: 20px
+        margin-bottom: 10px
+    &__h2
+        font-size: 35px
+        font-family: "Black"
+        margin-bottom: 30px
+
+.item
+    max-width: 317px
+    &__img
+        margin-bottom: 10px
+    &__p1
+        margin-bottom: 10px
+        font-size: 20px
+        font-family: 'Black'
+    &__p2
+        margin-bottom: 50px
+.item
+    margin-right: 100px
+    &:last-child
+        margin-right: 0
+.holder
+    display: flex
+    flex-direction: column
+.holder1
+    display: flex
+    flex-direction: row
+.space
+    position: absolute
+    right: 0
+    top: 1420px
+    z-index: -1
+
+.main4
+    margin-bottom: 100px
+    &__p
+        color: $color1
+        font-size: 20px
+        margin-bottom: 10px
+    &__h2
+        font-size: 35px
+        font-family: "Black"
+        margin-bottom: 30px
+    &__img
+        margin-right: 30px
+        margin-bottom: 20px
+    &__img1
+        margin-right: 30px
+        margin-bottom: 30px
+    &__wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 300px
+        height: 28px
+        background: $color1
+        border-radius: 10px
+        &__item
+            font-family: 'Black'
+.lorem
+    max-width: 280px
+    margin-bottom: 30px
+.lorem1
+    max-width: 280px
+    margin-bottom: 10px
+.left
+    margin-right: 200px
+
+.main5
+    margin-bottom: 60px
+    &__p
+        color: $color1
+        font-size: 20px
+        margin-bottom: 10px
+    &__h2
+        font-size: 35px
+        font-family: "Black"
+        margin-bottom: 26px
+    &__cont
+        padding-top: 100px
+        font-family: "Regular"
+        padding-top: 50px
+        padding-left: 35px
+        width: 587px
+        height: 351px
+        background: $color2
+        overflow: hidden
+        margin-bottom: 15px
+        &__p1
+            line-height: 30px
+            color: #FF003D
+            margin-bottom: 70px
+        &__p2
+            margin-bottom: 70px
+        &__p3
+            opacity: 0.5
+        &__img1
+            position: absolute
+            top: 141px
+            right: 62px
+        &__img2
+            position: absolute
+            top: 246px
+            right: 195px
+        &__img3
+            position: absolute
+            right: 0
+            bottom: 154px
+    &__cont1
+        font-family: "Regular"
+        padding-top: 20px
+        padding-left: 20px
+        width: 253px
+        height: 118px
+        background: $color2
+        margin-right: 15px
+        &__p1
+            color: #00B761
+            margin-bottom: 25px
+    &__cont2
+        font-family: "Regular"
+        padding-top: 20px
+        padding-left: 20px
+        width: 313px
+        height: 118px
+        background: $color2
+        &__p1
+            color: #786CFF
+            margin-bottom: 40px
+.p
+    font-family: 'Black'
+    text-align: center
+    font-size: 35px
+    margin-bottom: 30px
+.wrapper2
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &__wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 300px
+        height: 28px
+        background: $color1
+        border-radius: 10px
+        &__item
+            font-family: 'Black'
+
+.footer
+    padding-top: 65px
+    height: 265px
+    background: #1C1A1A
+    &__a1 
+        color: #92989F
+    &__a2
+        color: #ffff
+    &__ul
+        display: flex
+        flex-direction: column
+        margin-right: 73px
+        &__li
+            margin-bottom: 20px
+            &:last-child
+                margin-bottom: 0
+    &__p
+        display: flex
+        justify-content: center
+.hr
+    width: auto
+    border-top: 0
+    border-left: 0
+    border-right: 0
+    border-bottom: 1px solid #71777D
+    padding-top: 30px
